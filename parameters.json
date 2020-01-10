@@ -100,7 +100,12 @@
             "value": "johsoderi"
         },
         "adminPassword": {
-            "value": null
+            "reference": {
+                "keyVault": {
+                    "id": "/subscriptions/a637de61-4656-4056-9fb7-55d9026cf180/resourceGroups/BasicServerTest/providers/Microsoft.KeyVault/vaults/WinServerAdminPW"
+                },
+                "secretName": "AdminPW"
+            }
         },
         "diagnosticsStorageAccountName": {
             "value": "basicservertestdiag"
